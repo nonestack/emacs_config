@@ -11,3 +11,7 @@
 
 (global-display-line-numbers-mode) ; display line number
 
+(add-to-list 'load-path "~/.emacs.d/conf")
+(require 'test)
+
+(message "list = %s" load-path)
